@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/elem1"
+        android:title="@string/elemento1"
+        android:icon="@drawable/estrella"
+        app:showAsAction="always">
+    </item>
+    <item android:id="@+id/elem2"
+        android:title="@string/elemento2"
+        app:showAsAction="never">
+    </item>
+    <item android:id="@+id/submenu"
+        android:title="@string/submenu"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/elem3"
+                android:title="@string/elemento3" />
+        </menu>
+    </item>
+</menu>
