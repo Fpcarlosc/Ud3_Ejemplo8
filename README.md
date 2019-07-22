@@ -97,3 +97,4 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
+_Imagen de material.io/tools/icons (Licencia Apache 2.0)_
